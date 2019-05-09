@@ -62,7 +62,7 @@ class AVPlayerWrapperTests: XCTestCase {
             default: break
             }
         }
-        wrapper.load(from: Source.url, playWhenReady: true)
+        wrapper.load(from: ShortSource.url, playWhenReady: true)
         wait(for: [expectation], timeout: 20.0)
     }
 //    
